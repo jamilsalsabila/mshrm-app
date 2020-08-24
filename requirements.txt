@@ -53,7 +53,6 @@ Flask-WTF==0.14.3
 floyd-cli==0.11.17
 folium==0.10.1
 future==0.18.2
-GDAL==2.3.3
 geographiclib==1.50
 geopandas==0.6.1
 geopy==1.21.0
