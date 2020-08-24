@@ -1,1 +1,1 @@
-web: gunicorn mshrm-app:app
+web: gunicorn:app
