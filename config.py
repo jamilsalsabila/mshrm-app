@@ -8,3 +8,4 @@ class Config(object):
     SECRET_KEY = os.environ.get("SECRET_KEY") or "dede1234"
     UPLOAD_FOLDER = os.path.join(basedir, "uploads")
     MAX_CONTENT_LENGTH = 16*1024*1024
+		BUILDPACK_URL=https://github.com/kennethreitz/conda-buildpack.git
