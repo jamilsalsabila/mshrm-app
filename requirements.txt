@@ -84,7 +84,6 @@ kiwisolver==1.2.0
 lazy-object-proxy==1.4.3
 lxml==4.4.0
 Mako==1.1.0
-MarkupSafe==1.0
 marshmallow==2.21.0
 matplotlib
 mccabe==0.6.1
