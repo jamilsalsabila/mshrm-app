@@ -38,7 +38,6 @@ def index():
 # def uploaded_file(filename):
 #     return send_from_directory(app.config["UPLOAD_FOLDER"], filename=filename)
 
-
 @app.route("/predict/<img>")
 def predict(img):
 
@@ -51,4 +50,7 @@ def predict(img):
     model.eval()
     pred = softmax(model(ts_X), dim=1)
 
-    return jsonify(f"{INT_TO_NAME[max(pred, dim=1).indices.item()]}")
+    payload = {"label":
+               INT_TO_NAME[max(pred, dim=1).indices.item()]}
+    return render_template("predict.html", payload=payload)
+    # return jsonify(f"{INT_TO_NAME[max(pred, dim=1).indices.item()]}")

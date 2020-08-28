@@ -22,7 +22,6 @@ STD_LOC = os.path.join(os.path.abspath(
 MODEL_LOC = os.path.join(os.path.abspath(
     os.path.dirname('__file__')), "app/models/test_net.pt")
 
-
 # %% [AlexNet]
 
 
