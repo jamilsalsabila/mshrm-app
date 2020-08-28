@@ -12,8 +12,8 @@ DIM = 256
 
 NAME_TO_INT = {'omphalotus_olearius': 0, 'amanita_caesarea': 1,
                'cantharellus_cibarius': 2,  'volvariella_volvacea': 3,  'amanita_phalloides': 4}
-INT_TO_NAME = {0: 'omphalotus_olearius', 1: 'amanita_caesarea',
-               2: 'cantharellus_cibarius', 3: 'volvariella_volvacea', 4: 'amanita_phalloides'}
+INT_TO_NAME = {0: 'omphalotus_olearius - beracun', 1: 'amanita_caesarea - tidak beracun',
+               2: 'cantharellus_cibarius - tidak beracun', 3: 'volvariella_volvacea - tidak beracun', 4: 'amanita_phalloides - beracun'}
 
 MEAN_LOC = os.path.join(os.path.abspath(
     os.path.dirname('__file__')), "app/models/rgb_mean.txt")
